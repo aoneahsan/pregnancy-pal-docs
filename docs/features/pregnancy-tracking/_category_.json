@@ -1,0 +1,12 @@
+{
+  "label": "Pregnancy Tracking",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Pregnancy Tracking",
+    "description": "Week-by-week tracking, milestones, baby development, maternal changes, and your pregnancy profile — the core of PregnancyPal.",
+    "keywords": ["pregnancy tracking", "week by week", "milestones", "baby development"]
+  }
+}

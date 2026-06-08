@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "pregnancy-pal-ai"
+  },
+  "targets": {
+    "pregnancy-pal-ai": {
+      "hosting": {
+        "docs": [
+          "pregnancypal-docs"
+        ]
+      }
+    }
+  }
+}

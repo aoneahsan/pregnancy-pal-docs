@@ -1,0 +1,43 @@
+# PregnancyPal Documentation
+
+> User documentation for PregnancyPal — a maternal wellness companion app with
+> week-by-week pregnancy tracking, kick counter, contractions timer, personalized
+> meal planning, appointment management, community by week-cohort, and reminders.
+> Available as a web app, Android (in prep), iOS (in prep), and a companion browser
+> extension. Built by Ahsan Mahmood.
+
+## Key links
+
+- App: https://pregnancypal.aoneahsan.com
+- Docs site: https://pregnancypal-docs.aoneahsan.com
+- Sitemap: https://pregnancypal-docs.aoneahsan.com/sitemap.xml
+- Author: https://aoneahsan.com (Ahsan Mahmood)
+
+## Getting started
+
+- /docs/intro — Welcome and overview
+- /docs/getting-started/installation — Open the app on web, Android, or iOS
+- /docs/getting-started/sign-up — Create your account (email, Google, Apple)
+- /docs/getting-started/onboarding — First-run setup (LMP, conditions, diet)
+- /docs/getting-started/dashboard-tour — Find your way around after signing in
+
+## About
+
+- /docs/about/credits — About PregnancyPal, author attribution, and how to support
+
+## Honest framing
+
+PregnancyPal is a tracking and organization companion. It is NOT a substitute
+for prenatal care, does NOT diagnose any condition, and does NOT replace
+healthcare provider guidance. Always consult a qualified provider for medical
+decisions.
+
+## Content under construction
+
+The following sections will be filled in across upcoming documentation
+batches: pregnancy tracking deep dives, kick counter and contractions timer
+guides, wellness modules (water, medications, eye breaks, posture, movement,
+exercise, mood), diet & nutrition (meal planning, dietary restrictions,
+nutrition targets, condition-aware plans), appointments, period & fertility,
+community, notifications & reporting, account & settings, mobile-only flows,
+browser extension, FAQ, troubleshooting, legal, and glossary.

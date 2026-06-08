@@ -1,0 +1,12 @@
+{
+  "label": "Vitals & Symptom Tracking",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Vitals & Symptom Tracking",
+    "description": "Log blood pressure, glucose, temperature, weight, and symptoms. Plain charts, friendly reminders, PDF export for your provider. Tracking, not diagnosis.",
+    "keywords": ["blood pressure tracking", "glucose tracking", "weight tracking", "symptom log", "pregnancy vitals"]
+  }
+}

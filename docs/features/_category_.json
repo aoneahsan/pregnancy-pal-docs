@@ -1,0 +1,11 @@
+{
+  "label": "Features",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "PregnancyPal Features",
+    "description": "Every feature in PregnancyPal explained in detail — pregnancy tracking, kick counter, contractions timer, vitals, wellness, diet, appointments, community, notifications, account settings, mobile flows, and the browser extension."
+  }
+}

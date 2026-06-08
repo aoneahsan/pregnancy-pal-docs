@@ -1,0 +1,12 @@
+{
+  "label": "Wellness",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Wellness",
+    "description": "Daily-rhythm helpers — water intake, medications, eye breaks, posture, movement, exercise, and mood tracking. Calm reminders, simple logs, no nagging.",
+    "keywords": ["pregnancy wellness", "water intake", "medications", "exercise pregnancy", "mood tracking"]
+  }
+}

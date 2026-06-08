@@ -1,0 +1,12 @@
+{
+  "label": "Practical Tools",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "Practical Tools",
+    "description": "Hands-on tools you'll use day-to-day in PregnancyPal — the kick counter and the contractions timer. Calm, single-tap interfaces designed for moments when you don't want to fuss with the app.",
+    "keywords": ["kick counter", "contractions timer", "pregnancy app tools"]
+  }
+}

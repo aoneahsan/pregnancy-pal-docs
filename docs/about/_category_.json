@@ -1,0 +1,11 @@
+{
+  "label": "About",
+  "position": 99,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "title": "About PregnancyPal",
+    "description": "About the PregnancyPal product, its developer Ahsan Mahmood, and how to support the project."
+  }
+}

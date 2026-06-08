@@ -1,0 +1,167 @@
+/**
+ * PregnancyPal Docs — theme overrides.
+ *
+ * Brand: pink (#F472B6) → violet (#A78BFA) gradient, with mint accent for growth/health.
+ * Aligned with the main app's Radix-based palette.
+ *
+ * Author: Ahsan Mahmood — https://aoneahsan.com
+ */
+
+/* ---------- Light mode ---------- */
+:root {
+  --ifm-color-primary: #DB2777;            /* Pink 600 — readable on white */
+  --ifm-color-primary-dark: #BE185D;
+  --ifm-color-primary-darker: #9D174D;
+  --ifm-color-primary-darkest: #831843;
+  --ifm-color-primary-light: #EC4899;       /* Pink 500 */
+  --ifm-color-primary-lighter: #F472B6;     /* Pink 400 — brand accent */
+  --ifm-color-primary-lightest: #F9A8D4;
+
+  --ifm-color-secondary: #A78BFA;           /* Violet 400 */
+  --ifm-color-success: #10B981;
+  --ifm-color-warning: #F59E0B;
+  --ifm-color-danger: #EF4444;
+
+  --ifm-background-color: #FFFFFF;
+  --ifm-background-surface-color: #FAFAFA;
+  --ifm-color-content: #1F2937;
+  --ifm-color-content-secondary: #4B5563;
+
+  --ifm-font-family-base: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --ifm-heading-font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+
+  --ifm-code-font-size: 92%;
+  --docusaurus-highlighted-code-line-bg: rgba(244, 114, 182, 0.12);
+
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.85);
+  --ifm-navbar-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+
+  --ifm-footer-background-color: #FDF2F8;
+  --ifm-footer-link-color: #6B7280;
+  --ifm-footer-color: #4B5563;
+
+  --pp-gradient: linear-gradient(135deg, #F472B6 0%, #A78BFA 100%);
+  --pp-gradient-soft: linear-gradient(135deg, #FCE7F3 0%, #EDE9FE 100%);
+  --pp-shadow-soft: 0 6px 24px rgba(244, 114, 182, 0.12),
+                    0 2px 6px rgba(167, 139, 250, 0.08);
+  --pp-radius-lg: 18px;
+}
+
+/* ---------- Dark mode ---------- */
+[data-theme='dark'] {
+  --ifm-color-primary: #F472B6;             /* Pink 400 — bright on dark */
+  --ifm-color-primary-dark: #EC4899;
+  --ifm-color-primary-darker: #DB2777;
+  --ifm-color-primary-darkest: #BE185D;
+  --ifm-color-primary-light: #F9A8D4;
+  --ifm-color-primary-lighter: #FBCFE8;
+  --ifm-color-primary-lightest: #FCE7F3;
+
+  --ifm-background-color: #0F172A;
+  --ifm-background-surface-color: #1E293B;
+  --ifm-color-content: #F1F5F9;
+  --ifm-color-content-secondary: #CBD5E1;
+
+  --ifm-navbar-background-color: rgba(15, 23, 42, 0.85);
+  --ifm-navbar-shadow: 0 1px 0 rgba(255, 255, 255, 0.08);
+
+  --ifm-footer-background-color: #0B1120;
+  --ifm-footer-link-color: #94A3B8;
+  --ifm-footer-color: #CBD5E1;
+
+  --docusaurus-highlighted-code-line-bg: rgba(244, 114, 182, 0.18);
+
+  --pp-gradient: linear-gradient(135deg, #F472B6 0%, #A78BFA 100%);
+  --pp-gradient-soft: linear-gradient(135deg, rgba(244, 114, 182, 0.18) 0%, rgba(167, 139, 250, 0.18) 100%);
+  --pp-shadow-soft: 0 6px 24px rgba(0, 0, 0, 0.4),
+                    0 2px 6px rgba(167, 139, 250, 0.15);
+}
+
+/* ---------- Layout polish ---------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Subtle navbar blur */
+.navbar {
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+}
+
+/* Headings: keep tight, modern */
+.markdown h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.markdown h2 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2.4rem;
+}
+.markdown h3 {
+  font-weight: 600;
+  margin-top: 1.8rem;
+}
+
+/* Pretty blockquotes */
+.markdown blockquote {
+  border-left: 3px solid var(--ifm-color-primary);
+  background: var(--pp-gradient-soft);
+  padding: 0.85rem 1.2rem;
+  border-radius: 0 var(--pp-radius-lg) var(--pp-radius-lg) 0;
+  font-style: normal;
+  color: var(--ifm-color-content);
+}
+
+/* Buttons that follow the gradient */
+.button--gradient,
+.button--primary.button--lg {
+  background: var(--pp-gradient);
+  border: 0;
+  color: #fff;
+  box-shadow: var(--pp-shadow-soft);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.button--gradient:hover,
+.button--primary.button--lg:hover {
+  transform: translateY(-1px);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer attribution */
+.footer__copyright a {
+  color: var(--ifm-color-primary-lighter);
+  font-weight: 600;
+}
+.footer__copyright a:hover {
+  text-decoration: underline;
+}
+
+/* Sidebar tweaks */
+.menu__link--active {
+  background: var(--pp-gradient-soft);
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

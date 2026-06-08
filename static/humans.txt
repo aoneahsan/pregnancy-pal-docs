@@ -1,0 +1,17 @@
+/* TEAM */
+Author: Ahsan Mahmood
+Site: https://aoneahsan.com
+LinkedIn: https://linkedin.com/in/aoneahsan
+GitHub: https://github.com/aoneahsan
+Email: aoneahsan@gmail.com
+Location: Pakistan
+
+/* SITE */
+Last update: 2026-05-10
+Standards: HTML5, CSS3, ES2022
+Components: Docusaurus 3, React 19, TypeScript 5
+Software: Yarn, Firebase Hosting, GitHub Pages
+
+/* THANKS */
+- Docusaurus team
+- The pregnant people who use PregnancyPal — your feedback shapes everything
