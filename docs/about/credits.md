@@ -13,7 +13,7 @@ tags:
   - credits
   - developer
 last_update:
-  date: 2026-05-10
+  date: 2026-06-23
   author: Ahsan Mahmood
 ---
 
@@ -28,8 +28,8 @@ PregnancyPal is not a startup. There is no investor deck, no growth team, no qua
 A maternal wellness companion that runs on:
 
 - **Web** — [pregnancypal.aoneahsan.com](https://pregnancypal.aoneahsan.com)
-- **Android** — Play Store listing in preparation
-- **iOS** — App Store listing in preparation
+- **Android** — available on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.pregnancypal)
+- **iOS** — use the web app on iPhone (no native iOS app)
 - **Browser extension** — companion for desktop browsers
 
 The same product across four surfaces, with shared data and offline support on mobile. Built on React 19 + TanStack Router + TypeScript, packaged with [Capacitor](https://capacitorjs.com/) for mobile and [WXT](https://wxt.dev/) for the browser extension. Backed by Firebase Auth + Firestore on the free tier wherever possible.
@@ -141,4 +141,4 @@ Right now PregnancyPal is built for individual users. If you're a non-profit, he
 
 ---
 
-*Updated 2026-05-10 by Ahsan Mahmood — [aoneahsan.com](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) — [GitHub](https://github.com/aoneahsan) — [NPM](https://www.npmjs.com/~aoneahsan)*
+*Updated 2026-06-23 by Ahsan Mahmood — [aoneahsan.com](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) — [GitHub](https://github.com/aoneahsan) — [NPM](https://www.npmjs.com/~aoneahsan)*

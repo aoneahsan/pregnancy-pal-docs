@@ -14,7 +14,7 @@ tags:
   - overview
   - getting-started
 last_update:
-  date: 2026-05-10
+  date: 2026-06-23
   author: Ahsan Mahmood
 image: /img/og-image.png
 ---
@@ -61,8 +61,8 @@ PregnancyPal is one product across four surfaces:
 | Surface           | Status                | Where                                                                               |
 | ----------------- | --------------------- | ----------------------------------------------------------------------------------- |
 | Web               | Live                  | [pregnancypal.aoneahsan.com](https://pregnancypal.aoneahsan.com)                    |
-| Android           | In preparation        | Play Store listing pending — sideload available for testers                         |
-| iOS               | In preparation        | App Store listing pending                                                           |
+| Android           | Live on Google Play   | [Google Play listing](https://play.google.com/store/apps/details?id=com.aoneahsan.pregnancypal) |
+| iOS               | Web app in Safari     | No native iOS app — use [pregnancypal.aoneahsan.com](https://pregnancypal.aoneahsan.com) in Safari |
 | Browser extension | Production            | Companion extension for content access on the web                                   |
 
 Your data stays in sync across all surfaces. Use whichever works best for the moment.
@@ -90,7 +90,7 @@ Right now, PregnancyPal is single-account — one person per account. Sharing-fr
 
 ### Does PregnancyPal work offline?
 
-The mobile apps (Android and iOS) cache your data so you can keep logging kicks, contractions, and vitals without a connection. Logs sync automatically when you reconnect. The web app needs a connection to load and save data.
+The Android app caches your data so you can keep logging kicks, contractions, and vitals without a connection. Logs sync automatically when you reconnect. The web app needs a connection to load and save data.
 
 ### Can I export my data?
 
@@ -114,4 +114,4 @@ PregnancyPal is built and maintained by **Ahsan Mahmood**, an independent softwa
 
 ---
 
-*Updated 2026-05-10 by Ahsan Mahmood — [aoneahsan.com](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) — [GitHub](https://github.com/aoneahsan)*
+*Updated 2026-06-23 by Ahsan Mahmood — [aoneahsan.com](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) — [GitHub](https://github.com/aoneahsan)*

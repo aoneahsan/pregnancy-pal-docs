@@ -1,6 +1,6 @@
 # PregnancyPal Docs — Project Instructions
 
-**Last Updated**: 2026-05-29
+**Last Updated**: 2026-06-23
 
 Public user documentation site for **PregnancyPal** (the maternal-wellness app). This repo is the **only public, indexable surface** for the product — the app's own source lives in a separate private repository.
 
@@ -26,7 +26,7 @@ Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (
 
 ## Repo / git note (IMPORTANT for maintainers)
 
-This project now has **its own private GitHub repo**: `github.com/aoneahsan/pregnancy-pal-docs` (remote name `o`, branch `main`). Commit + push directly here (one commit per prompt, then `git push o main`). It is a standalone repo — not a submodule/gitlink of `01-code`. (Created 2026-06-08.)
+This project has **its own public GitHub repo**: `github.com/aoneahsan/pregnancy-pal-docs` (remote name `o`, branch `main`). Commit + push directly here (one commit per prompt, then `git push o main`). It is a standalone repo — not a submodule/gitlink of `01-code`. (Created 2026-06-08; flipped **public** 2026-06-23 per the fleet docs-public policy — docs sites are public for free GitHub Pages; the app's code repo stays private.)
 
 ---
 
@@ -41,7 +41,7 @@ yarn serve            # preview built site on :5946 (DO NOT run in agent session
 yarn lint             # eslint --max-warnings=0
 ```
 
-`onBrokenLinks: 'warn'` — forward-references to not-yet-written docs pages (diet, appointments, period, reporting, notifications, account, legal) emit warnings but do not fail the build. Fill those pages in upcoming content batches and the warnings clear themselves.
+`onBrokenLinks: 'warn'`. All content batches (1–11) are written (2026-06-23): getting-started, pregnancy tracking, tools, vitals, wellness, diet & appointments, period/fertility/community, notifications/content/reporting, account/settings, mobile/extension, and help/legal/glossary — 68 doc pages, building with **zero broken links**. Keep new pages to the established per-page pattern (definition-first intro → use cases → how-to → examples → tips → FAQ → "what this does NOT do" → related) with `last_update` + author footer.
 
 ---
 

@@ -1,14 +1,17 @@
 # PregnancyPal Documentation
 
 > User documentation for PregnancyPal — a maternal wellness companion app with
-> week-by-week pregnancy tracking, kick counter, contractions timer, personalized
-> meal planning, appointment management, community by week-cohort, and reminders.
-> Available as a web app, Android (in prep), iOS (in prep), and a companion browser
-> extension. Built by Ahsan Mahmood.
+> week-by-week pregnancy tracking, kick counter, contractions timer, meal
+> planning, appointment management, period & fertility tracking, community by
+> week-cohort, wellness reminders, and a health-report PDF export.
+> Available as a web app and an Android app (on Google Play); iPhone/iPad users
+> use the web app in Safari. A companion Chrome extension is also available.
+> Built by Ahsan Mahmood.
 
 ## Key links
 
 - App: https://pregnancypal.aoneahsan.com
+- Android (Google Play): https://play.google.com/store/apps/details?id=com.aoneahsan.pregnancypal
 - Docs site: https://pregnancypal-docs.aoneahsan.com
 - Sitemap: https://pregnancypal-docs.aoneahsan.com/sitemap.xml
 - Author: https://aoneahsan.com (Ahsan Mahmood)
@@ -16,10 +19,30 @@
 ## Getting started
 
 - /docs/intro — Welcome and overview
-- /docs/getting-started/installation — Open the app on web, Android, or iOS
-- /docs/getting-started/sign-up — Create your account (email, Google, Apple)
+- /docs/getting-started/installation — Open the app on the web or Android
+- /docs/getting-started/sign-up — Create your account (sign in with Google)
 - /docs/getting-started/onboarding — First-run setup (LMP, conditions, diet)
 - /docs/getting-started/dashboard-tour — Find your way around after signing in
+
+## Feature documentation
+
+- /docs/features/pregnancy-tracking/week-by-week — Week-by-week tracking, milestones, baby development, maternal changes
+- /docs/features/tools/kick-counter — Kick counter and /docs/features/tools/contractions-timer — contractions timer
+- /docs/features/tracking/blood-pressure — Vitals & symptom logging (blood pressure, glucose, temperature, weight, symptoms)
+- /docs/features/wellness/water-intake — Wellness modules (water, medications, eye breaks, posture, movement, exercise, mood)
+- /docs/features/diet/meal-planning — Diet & nutrition (meal planning, dietary restrictions, nutrition targets, condition-aware plans)
+- /docs/features/appointments/scheduling — Appointment scheduling, reminders, and PDF export
+- /docs/features/period/cycle-tracking — Period, ovulation estimates, fertility, and pre-pregnancy use
+- /docs/features/community/joining-cohorts — Week-cohort communities, posting, safety & moderation
+- /docs/features/notifications/push — Push notifications, preferences, quiet hours
+- /docs/features/reporting/health-export-pdf — Health-report PDF export
+- /docs/features/account/profile — Account, security, data export, account deletion
+- /docs/features/settings/theme-customizer — Theme customizer, units, language
+- /docs/features/mobile/install-android — Mobile install, offline behavior, deep linking, share & PDF
+- /docs/features/extension/install — Chrome companion extension
+- /docs/help/faq — FAQ, troubleshooting, contact support
+- /docs/legal/privacy — Plain-language privacy, terms, and data-handling summaries
+- /docs/about/glossary — Pregnancy & app glossary
 
 ## About
 
@@ -29,15 +52,6 @@
 
 PregnancyPal is a tracking and organization companion. It is NOT a substitute
 for prenatal care, does NOT diagnose any condition, and does NOT replace
-healthcare provider guidance. Always consult a qualified provider for medical
+healthcare provider guidance. Predictions (such as ovulation estimates) are
+estimates, not medical advice. Always consult a qualified provider for medical
 decisions.
-
-## Content under construction
-
-The following sections will be filled in across upcoming documentation
-batches: pregnancy tracking deep dives, kick counter and contractions timer
-guides, wellness modules (water, medications, eye breaks, posture, movement,
-exercise, mood), diet & nutrition (meal planning, dietary restrictions,
-nutrition targets, condition-aware plans), appointments, period & fertility,
-community, notifications & reporting, account & settings, mobile-only flows,
-browser extension, FAQ, troubleshooting, legal, and glossary.

@@ -12,20 +12,20 @@ tags:
   - getting-started
   - install
 last_update:
-  date: 2026-05-10
+  date: 2026-06-23
   author: Ahsan Mahmood
 ---
 
 # Install or open PregnancyPal
 
-> **Installing PregnancyPal** means opening the web app in your browser, adding it to your home screen as a Progressive Web App, sideloading the Android build, or — once published — downloading from the Play Store or App Store.
+> **Installing PregnancyPal** means opening the web app in your browser, adding it to your home screen as a Progressive Web App, or downloading the Android app from Google Play.
 
 You don't have to install anything to use PregnancyPal. The web app at [pregnancypal.aoneahsan.com](https://pregnancypal.aoneahsan.com) is fully featured — every tracker, every meal plan, every reminder. Most people start there. Mobile installs add offline support and native push notifications, which are useful but not required for day-one use.
 
 ## Quick reference: which version is right for you
 
 - **Just trying it out?** Use the web app in your browser.
-- **You want offline access during your commute, the hospital, or anywhere with patchy signal?** Install on Android (sideload during prep, Play Store soon) or iOS (App Store pending).
+- **You want offline access during your commute, the hospital, or anywhere with patchy signal?** Install the Android app from Google Play. On iPhone, use the web app in Safari and add it to your home screen.
 - **You spend a lot of time on a desktop browser?** Add the browser extension as a quick-access companion.
 - **You like saving things to your phone home screen?** Use the web app and "Add to Home Screen" — that's the PWA install.
 
@@ -55,20 +55,19 @@ The web app is the canonical experience. Every feature is here.
 
 PWAs feel native — no browser bar, fast launches — but their offline support and notifications are more limited than native installs.
 
-### 3. Native Android (sideload during prep, Play Store later)
+### 3. Native Android (Google Play)
 
-The Play Store listing is in preparation. While we wait for review, testers can sideload the latest signed APK from the developer:
+The Android app is available on Google Play:
 
-1. Email [aoneahsan@gmail.com](mailto:aoneahsan@gmail.com) and ask for the latest build.
-2. On your Android phone, open **Settings → Security** and enable "Install unknown apps" for your file manager or browser.
-3. Open the APK file. Tap **Install**.
-4. Open PregnancyPal from your app drawer.
+1. Open the [PregnancyPal listing on Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.pregnancypal).
+2. Tap **Install**.
+3. Open PregnancyPal from your app drawer and sign in.
 
-Once the Play Store listing goes live, this guide will update with a direct link.
+Prefer not to install a native app? The web app's "Add to Home Screen" PWA (instructions above) is a lighter alternative on Android.
 
-### 4. Native iOS (App Store pending)
+### 4. iPhone & iPad (web app in Safari)
 
-The App Store listing is in preparation. Until then, the web app on Safari is the iOS experience. Add it to your home screen as a PWA (instructions above) for the closest-to-native feel.
+There is no native iOS app. On iPhone and iPad, PregnancyPal runs as the web app in Safari — open [pregnancypal.aoneahsan.com](https://pregnancypal.aoneahsan.com) and add it to your home screen as a PWA (instructions above) for the closest-to-native feel.
 
 ### 5. Browser extension
 
@@ -88,7 +87,7 @@ The extension is **not required** to use PregnancyPal — it's purely additive.
 
 ## Tips
 
-- The PWA install via "Add to Home Screen" gives you most of the benefit of a native install on iOS, where the App Store listing is still pending.
+- On iPhone, the PWA install via "Add to Home Screen" is the way to use PregnancyPal on iOS — there's no native iOS app, and the PWA gives you most of the benefit of a native install.
 - If you've used PregnancyPal on the web and switch to a native install later, sign in with the same account — your data syncs automatically.
 - If your phone has limited storage, the PWA is much smaller than a native install.
 
@@ -98,13 +97,13 @@ The extension is **not required** to use PregnancyPal — it's purely additive.
 
 No. The web app at pregnancypal.aoneahsan.com works in every modern browser without any download. Installs add convenience and offline support but aren't required.
 
-### Is the Android app safe to sideload?
+### Where do I get the Android app?
 
-The build is signed by the developer (Ahsan Mahmood). Only download the APK from a link the developer sent you directly. Don't trust APKs from random third-party sites. Once the Play Store listing is live, sideloading won't be necessary.
+From Google Play — the [official PregnancyPal listing](https://play.google.com/store/apps/details?id=com.aoneahsan.pregnancypal). Installing from Google Play means the app is verified by Google and updates arrive automatically, so there's no need to sideload an APK.
 
-### Why isn't there an iOS app yet?
+### Is there an iOS app?
 
-iOS App Store submissions take time and require an active Apple Developer Program membership. The listing is in preparation. Until it's live, use the web app via Safari and add it to your home screen as a PWA — the experience is very close to native for most features.
+There's no native iOS app. On iPhone and iPad, use the web app in Safari and add it to your home screen as a PWA — the experience is very close to native for most features, and your data syncs the same as everywhere else.
 
 ### Can I use the browser extension without signing in?
 
@@ -112,11 +111,11 @@ The extension uses Chrome's built-in identity flow, so you sign in once with you
 
 ### Will my data sync between web and mobile?
 
-Yes — data syncs automatically through your account. Sign in with the same email/Google/Apple identity on every device.
+Yes — data syncs automatically through your account. Sign in with the same Google account on every device.
 
 ### Is PregnancyPal available offline on the web?
 
-The web app caches some assets so it loads quickly, but creating, editing, and viewing your live data needs a connection on the web. The native Android and iOS apps support full offline mode and queue changes for sync.
+The web app caches some assets so it loads quickly, but creating, editing, and viewing your live data needs a connection on the web. The native Android app supports full offline mode and queues changes for sync.
 
 ### How big is the install?
 
@@ -138,4 +137,4 @@ The native Android build is small — well under 30 MB. The PWA install is even 
 
 ---
 
-*Updated 2026-05-10 by Ahsan Mahmood — [aoneahsan.com](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) — [GitHub](https://github.com/aoneahsan)*
+*Updated 2026-06-23 by Ahsan Mahmood — [aoneahsan.com](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) — [GitHub](https://github.com/aoneahsan)*

@@ -59,7 +59,8 @@ const config: Config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.7,
-          ignorePatterns: ['/tags/**'],
+          lastmod: 'date',
+          ignorePatterns: ['/docs/tags/**', '/tags/**'],
           filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
@@ -127,7 +128,7 @@ const config: Config = {
         '@context': 'https://schema.org',
         '@type': 'SoftwareApplication',
         name: 'PregnancyPal',
-        operatingSystem: 'Web, Android, iOS',
+        operatingSystem: 'Web, Android',
         applicationCategory: 'HealthApplication',
         url: APP_URL,
         author: {
@@ -191,8 +192,8 @@ const config: Config = {
           title: 'Documentation',
           items: [
             { label: 'Getting Started', to: '/docs/getting-started/installation' },
-            { label: 'Pregnancy Tracking', to: '/docs/intro' },
-            { label: 'FAQ', to: '/docs/intro' },
+            { label: 'Pregnancy Tracking', to: '/docs/features/pregnancy-tracking/week-by-week' },
+            { label: 'FAQ', to: '/docs/help/faq' },
           ],
         },
         {

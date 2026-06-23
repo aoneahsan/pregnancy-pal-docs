@@ -1,26 +1,26 @@
 ---
 sidebar_position: 2
-title: Create Your PregnancyPal Account — Email, Google, Apple
-description: Sign up for PregnancyPal with email and password, Google OAuth, or Apple Sign-In. Verify your email, set a strong password, and start tracking.
+title: Create Your PregnancyPal Account — Sign In with Google
+description: Sign up for PregnancyPal by signing in with your Google account, then start tracking your pregnancy week by week across web, Android, and the browser extension.
 keywords:
   - PregnancyPal sign up
   - PregnancyPal account
   - pregnancy app login
   - Google sign-in pregnancy app
-  - Apple sign-in pregnancy app
+  - Google account pregnancy app
 tags:
   - getting-started
   - account
 last_update:
-  date: 2026-05-10
+  date: 2026-06-23
   author: Ahsan Mahmood
 ---
 
 # Create your account
 
-> **Creating a PregnancyPal account** sets up a personal, password-protected workspace where your pregnancy data, kick logs, contraction logs, meal plans, appointments, and preferences are saved and synced across web, mobile, and the browser extension.
+> **Creating a PregnancyPal account** sets up a personal, secure workspace where your pregnancy data, kick logs, contraction logs, meal plans, appointments, and preferences are saved and synced across web, mobile, and the browser extension.
 
-Signing up takes about 60 seconds. You can use email and a password, sign in with Google, or — on Apple devices — sign in with Apple. Either way, your data is tied to that identity and follows you to every device you log in on.
+Signing up takes about 60 seconds — you sign in with your Google account, and your data is tied to that identity and follows you to every device you log in on.
 
 ## What you can do after signing up
 
@@ -34,32 +34,16 @@ Signing up takes about 60 seconds. You can use email and a password, sign in wit
 
 ### 1. Open the sign-in page
 
-From the [PregnancyPal home page](https://pregnancypal.aoneahsan.com), click **Sign in** in the top right. This opens the auth screen with three options.
+From the [PregnancyPal home page](https://pregnancypal.aoneahsan.com), click **Sign in** in the top right. This opens the sign-in screen.
 
-### 2. Choose your sign-up method
+### 2. Sign in with Google
 
-You have three equivalent options. Pick the one that works best for you.
-
-#### Option A — Email and password
-
-1. Click **Sign up with email**.
-2. Enter your email and a password (12+ characters recommended; mix letters, numbers, and a symbol).
-3. Click **Create account**.
-4. Check your inbox for a verification email. Click the link inside to confirm your address.
-
-#### Option B — Sign in with Google
+PregnancyPal uses your Google account to create and secure your account.
 
 1. Click **Continue with Google**.
-2. Pick a Google account from the popup or sign into one you haven't used before.
+2. Pick a Google account from the popup, or sign into one you haven't used before.
 3. Approve the access request — PregnancyPal sees your name, email, and avatar but never your Google password.
-4. You're done. No email verification step is needed.
-
-#### Option C — Sign in with Apple (iOS / macOS Safari)
-
-1. Click **Continue with Apple**.
-2. Use Touch ID, Face ID, or your Apple ID password to authenticate.
-3. Choose whether to share your real email or use Apple's hide-my-email relay.
-4. Confirm. You're in.
+4. You're done. No separate email verification step is needed.
 
 ### 3. Land on onboarding
 
@@ -67,32 +51,32 @@ After signing up, the app routes you to the [Onboarding walkthrough](./onboardin
 
 ## Examples
 
-- **You already use Gmail every day.** Use *Continue with Google* — fastest, no extra password to remember.
-- **You're privacy-focused on iOS.** Use *Sign in with Apple* and choose the hide-my-email relay so PregnancyPal never sees your real address.
-- **You want to keep this app firmly separated from your other identities.** Use *email + password* with a fresh email.
+- **You already use Gmail every day.** *Continue with Google* is instant — no extra password to remember.
+- **You keep a separate Google account for apps.** Choose that account in the Google popup so PregnancyPal stays tied to the identity you prefer.
+- **You're switching to a new phone.** Sign in with the same Google account and your data is already there — nothing to migrate.
 
 ## Tips
 
-- Use a real email address — you'll need it for password reset and account-recovery flows.
-- Save your password in a password manager (Apple Keychain, Bitwarden, 1Password). PregnancyPal never sees or stores your password in plain text.
-- If you sign in with Google or Apple, you don't have a password — your provider handles that. To unlink later, you'll need to re-authenticate with the original method.
-- You can have only one account per email/Google/Apple identity. Trying to "sign up" with an identity that's already registered will sign you in instead.
+- Your Google account is your sign-in — there's no separate PregnancyPal password to set or remember.
+- Google handles your password and any two-factor protection. Keep your Google account secure and your PregnancyPal account stays secure too.
+- Signing in is the same on every surface — the web app, the Android app, and the browser extension all use your Google account.
+- You can have only one PregnancyPal account per Google identity. Trying to "sign up" with a Google account that's already registered will simply sign you in.
 
 ## Account security basics
 
-- PregnancyPal stores your authentication via Firebase Authentication. Passwords are hashed (bcrypt-family); we never store or transmit your password in plain text.
-- Sensitive actions (delete account, change email) require re-authenticating with your original method.
-- If you forget your password, use **Forgot password** on the sign-in screen. We'll send a reset link to your email.
+- PregnancyPal handles sign-in through Firebase Authentication using your Google account. The app never sees or stores a password — Google manages that.
+- Sensitive actions (like deleting your account) require re-authenticating with Google.
+- If you ever lose access, recover your Google account through Google's account-recovery flow; your PregnancyPal data stays tied to that identity.
 
 ## Frequently asked questions
 
 ### Do I need an email to sign up?
 
-Yes. Email is required for account recovery, important security notices, and (if you opt in) digest reminders. Apple Sign-In's hide-my-email relay still gives you a working email — Apple just routes it.
+You sign in with Google, so the email tied to your Google account is what PregnancyPal uses for account-related notices and (if you opt in) digest reminders. There's no separate email to enter.
 
 ### Can I change my sign-in method later?
 
-You can change your password via the security settings. Switching from email/password to Google or Apple requires creating a new account today; we'll add a "link methods" feature later.
+PregnancyPal signs you in with Google. There's a single sign-in method today, so there's nothing to switch between — your account is always tied to your Google identity.
 
 ### What if I already have an account on another pregnancy app?
 
@@ -100,7 +84,7 @@ PregnancyPal is independent — there's no automatic import from other apps. You
 
 ### Is two-factor authentication available?
 
-Two-factor (2FA) for email-and-password accounts is on the roadmap. If you sign in with Google or Apple, your provider's 2FA already protects your PregnancyPal account.
+Because you sign in with Google, your Google account's two-factor protection already covers your PregnancyPal account. Turn on 2FA in your Google account settings for an extra layer of security.
 
 ### Can I sign up anonymously without an email?
 
@@ -110,9 +94,9 @@ Not yet. Anonymous accounts make features like cross-device sync and account rec
 
 When you request account deletion, your auth record, profile, pregnancy data, logs, and uploaded files are removed. The deletion flow is in Account & Settings (documented in a later batch).
 
-### Why does PregnancyPal use Google and Apple instead of Facebook or Twitter?
+### Why does PregnancyPal use Google sign-in instead of Facebook or Twitter?
 
-Google and Apple are the broadest, most reliable identity providers for an app aimed at general consumers. Adding more providers is possible but increases support burden — for now, three options cover the vast majority of users.
+Google is a broad, reliable identity provider that most people already have, and it keeps sign-in to a single, well-understood step. Adding more providers is possible but increases the support burden — Google sign-in covers the vast majority of users today.
 
 ## What this guide does NOT cover
 
@@ -130,4 +114,4 @@ Google and Apple are the broadest, most reliable identity providers for an app a
 
 ---
 
-*Updated 2026-05-10 by Ahsan Mahmood — [aoneahsan.com](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) — [GitHub](https://github.com/aoneahsan)*
+*Updated 2026-06-23 by Ahsan Mahmood — [aoneahsan.com](https://aoneahsan.com) — [LinkedIn](https://linkedin.com/in/aoneahsan) — [GitHub](https://github.com/aoneahsan)*

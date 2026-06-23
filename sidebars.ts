@@ -96,38 +96,61 @@ const sidebars: SidebarsConfig = {
       label: '🥗 Diet & Appointments',
       collapsible: true,
       collapsed: true,
-      items: [],
+      items: [
+        'features/diet/meal-planning',
+        'features/diet/dietary-restrictions',
+        'features/diet/nutrition-targets',
+        'features/diet/condition-aware-plans',
+        'features/appointments/scheduling',
+        'features/appointments/reminders',
+        'features/appointments/export-pdf',
+      ],
       link: {
         type: 'generated-index',
         title: 'Diet & Appointments',
         description:
-          'Meal planning, dietary restrictions, condition-aware nutrition, appointment scheduling and reminders. Coming in Batch 5.',
+          'Meal planning, dietary restrictions, nutrition targets, an honest note on condition-aware plans, and appointment scheduling, reminders, and PDF export.',
       },
     },
     {
       type: 'category',
-      label: '🌸 Period & Fertility & Community',
+      label: '🌸 Period, Fertility & Community',
       collapsible: true,
       collapsed: true,
-      items: [],
+      items: [
+        'features/period/cycle-tracking',
+        'features/period/ovulation-prediction',
+        'features/fertility/conception-window',
+        'features/fertility/pre-pregnancy',
+        'features/community/joining-cohorts',
+        'features/community/posting-and-anonymous',
+        'features/community/safety-and-moderation',
+      ],
       link: {
         type: 'generated-index',
         title: 'Period, Fertility & Community',
         description:
-          'Cycle tracking, ovulation prediction, conception window, pre-pregnancy mode, week-cohort communities. Coming in Batch 6.',
+          'Cycle tracking, ovulation estimates, the fertile window, using PregnancyPal before pregnancy, and joining and posting in week-cohort communities.',
       },
     },
     {
       type: 'category',
-      label: '🔔 Notifications & Reporting',
+      label: '🔔 Notifications, Content & Reporting',
       collapsible: true,
       collapsed: true,
-      items: [],
+      items: [
+        'features/notifications/push',
+        'features/notifications/preferences',
+        'features/notifications/quiet-hours',
+        'features/blog/reading',
+        'features/content/quizzes-calculators',
+        'features/reporting/health-export-pdf',
+      ],
       link: {
         type: 'generated-index',
-        title: 'Notifications & Reporting',
+        title: 'Notifications, Content & Reporting',
         description:
-          'Push notifications, preferences, quiet hours, blog reading, quizzes & calculators, health PDF export. Coming in Batch 7.',
+          'Push notifications, category preferences, quiet hours, reading the blog, the education hub of quizzes and tools, and the health-report PDF export.',
       },
     },
     {
@@ -135,12 +158,20 @@ const sidebars: SidebarsConfig = {
       label: '⚙️ Account & Settings',
       collapsible: true,
       collapsed: true,
-      items: [],
+      items: [
+        'features/account/profile',
+        'features/account/security',
+        'features/account/data-export',
+        'features/account/delete-account',
+        'features/settings/theme-customizer',
+        'features/settings/units',
+        'features/settings/language',
+      ],
       link: {
         type: 'generated-index',
         title: 'Account & Settings',
         description:
-          'Profile, security, data export, account deletion, theme customizer, units, language. Coming in Batch 8.',
+          'Your profile, sign-in and security, exporting your data, deleting your account, the theme customizer, measurement units, and language.',
       },
     },
     {
@@ -148,25 +179,47 @@ const sidebars: SidebarsConfig = {
       label: '📱 Mobile & Browser Extension',
       collapsible: true,
       collapsed: true,
-      items: [],
+      items: [
+        'features/mobile/install-android',
+        'features/mobile/install-ios',
+        'features/mobile/offline-mode',
+        'features/mobile/deep-linking',
+        'features/mobile/share-and-pdf',
+        'features/extension/install',
+        'features/extension/popup',
+        'features/extension/options',
+      ],
       link: {
         type: 'generated-index',
         title: 'Mobile & Browser Extension',
         description:
-          'Install on Android / iOS, offline mode, deep linking, share & PDF, browser extension popup and options. Coming in Batch 9.',
+          'Install on Android, use PregnancyPal on iPhone via the web app, what works offline, deep linking, sharing & PDF, and the Chrome companion extension.',
       },
     },
     {
       type: 'category',
-      label: '❓ Help & Legal',
+      label: '❓ Help & Support',
       collapsible: true,
       collapsed: true,
-      items: [],
+      items: ['help/faq', 'help/troubleshooting', 'help/contact-support'],
       link: {
         type: 'generated-index',
-        title: 'Help & Legal',
+        title: 'Help & Support',
         description:
-          'FAQ, troubleshooting, contact support, privacy, terms, data handling. Coming in Batch 10.',
+          'Frequently asked questions, troubleshooting common issues, and every way to reach support.',
+      },
+    },
+    {
+      type: 'category',
+      label: '📄 Privacy, Terms & Data',
+      collapsible: true,
+      collapsed: true,
+      items: ['legal/privacy', 'legal/terms', 'legal/data-handling'],
+      link: {
+        type: 'generated-index',
+        title: 'Privacy, Terms & Data',
+        description:
+          'Plain-language summaries of the privacy policy, terms, and how your data is stored — the in-app pages remain the binding documents.',
       },
     },
     {
@@ -174,7 +227,7 @@ const sidebars: SidebarsConfig = {
       label: 'ℹ️ About',
       collapsible: true,
       collapsed: false,
-      items: ['about/credits'],
+      items: ['about/credits', 'about/glossary'],
     },
   ],
 };
