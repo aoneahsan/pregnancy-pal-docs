@@ -23,6 +23,17 @@ build/
 .env.test.local
 .env.production.local
 
+# Secrets (PUBLIC repo — NEVER track; keep .env.example template)
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+keystore.properties
+*service-account*.json
+.npmrc
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
