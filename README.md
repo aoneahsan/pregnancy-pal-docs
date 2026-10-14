@@ -37,12 +37,9 @@ Local URL: http://localhost:5946
 
 ## Deployment
 
-Two deploy targets:
+GitHub Pages deploys this site from `main` through `.github/workflows/deploy-pages.yml`. The custom domain is `pregnancypal-docs.aoneahsan.com`. There is no active Firebase Hosting workflow for this repository.
 
-- **Primary**: [Firebase Hosting](https://firebase.google.com/docs/hosting) at `pregnancypal-docs.aoneahsan.com`
-- **Mirror**: GitHub Pages at `https://aoneahsan.github.io/pregnancy-pal-docs/`
-
-GitHub Actions workflows in `.github/workflows/` handle both. See `firebase.json` and `.firebaserc` for Firebase config.
+The 2026-10-14 maintenance build passed typecheck and Docusaurus production build, and the fresh site loaded in controlled Chrome at desktop and mobile widths without exceptions or horizontal overflow. Package upgrades remain in the workspace fleet tracker.
 
 ## Folder structure
 
