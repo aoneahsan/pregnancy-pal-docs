@@ -27,7 +27,6 @@ const config: Config = {
   projectName: 'pregnancy-pal-docs',
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
 
   trailingSlash: false,
 

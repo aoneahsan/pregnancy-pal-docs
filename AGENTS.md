@@ -1,6 +1,6 @@
 # PregnancyPal Docs — Agent Instructions
 
-**Last Updated**: 2026-10-14. **Next routine context review**: 2026-11-13.
+**Last Updated**: 2026-10-21. **Next routine context review**: 2026-11-20.
 
 Public user documentation site for **PregnancyPal** (the maternal-wellness app). This repo is a public, indexable documentation surface for the product — the app's own source lives in a separate private repository.
 
@@ -12,10 +12,12 @@ Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (
 
 This public docs repository is nested under `pregnancypal-root/` and deploys through GitHub Pages on `main`. The private app and old Firebase backend are deferred for Supabase redevelopment; technical docs and links must remain factual. The workspace fleet tracker records the 30-day context pass and local build/browser verification.
 
+**Docs maintenance (2026-10-21):** Supported packages and GitHub Pages actions are current; immutable install, typecheck, production build, and controlled Chrome desktop/mobile checks pass. Push to `main` deploys the verified build.
+
 ## What this project is
 
 - **Type**: Documentation / knowledge-base site (Docusaurus 3).
-- **Stack**: Docusaurus `3.10.1` (preset-classic + theme-mermaid), React `19.2.x`, TypeScript `~6.0`, MDX 3, Yarn `4.17.1` (Berry, `node-modules` linker).
+- **Stack**: Docusaurus `3.10.2` (preset-classic + theme-mermaid), React `19.3.x`, TypeScript `~6.0`, MDX 3, Yarn `4.18.1` (Berry, `node-modules` linker).
 - **Live URL**: https://pregnancypal-docs.aoneahsan.com
 - **Documents the app**: https://pregnancypal.aoneahsan.com (Capacitor app id `com.aoneahsan.pregnancypal`).
 - **Deploy**: GitHub Pages through `.github/workflows/deploy-pages.yml` only; the custom domain is `pregnancypal-docs.aoneahsan.com`.
@@ -40,7 +42,6 @@ yarn start            # local dev server on :5946 (DO NOT run in agent sessions)
 yarn typecheck        # tsc --noEmit
 yarn build            # docusaurus build → ./build
 yarn serve            # preview built site on :5946 (DO NOT run in agent sessions)
-yarn lint             # eslint --max-warnings=0
 ```
 
 `onBrokenLinks: 'warn'`. All content batches (1–11) are written (2026-06-23): getting-started, pregnancy tracking, tools, vitals, wellness, diet & appointments, period/fertility/community, notifications/content/reporting, account/settings, mobile/extension, and help/legal/glossary — 68 doc pages, building with **zero broken links**. Keep new pages to the established per-page pattern (definition-first intro → use cases → how-to → examples → tips → FAQ → "what this does NOT do" → related) with `last_update` + author footer.
@@ -87,7 +88,7 @@ Three tiers, each tool ONLY for its tier — for the best, most reproducible dev
 ---
 
 ## Package Upgrades: Use `npm-check-updates`
-For dependency upgrades use `npx -y npm-check-updates -u && yarn install` (latest STABLE), NOT `yarn upgrade --latest`. Full rule in global `~/.claude/CLAUDE.md`. Last applied: 2026-05-29 (no-op — already on Docusaurus 3.10.1 / React 19.2 / TS 6.0.3).
+For dependency upgrades use `npx -y npm-check-updates -u && yarn install` (latest STABLE), NOT `yarn upgrade --latest`. Full rule in global `~/.claude/CLAUDE.md`. Last applied: 2026-10-21 (Docusaurus 3.10.2 / React 19.3 / TypeScript 6.0.3).
 
 ---
 
