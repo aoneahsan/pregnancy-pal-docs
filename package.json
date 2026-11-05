@@ -25,7 +25,7 @@
     "start": "docusaurus start --port 5946",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "yarn build && npx -y wrangler@4 pages deploy build --project-name pregnancypal-docs --branch main --commit-dirty=true",
+    "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve --port 5946",
     "write-translations": "docusaurus write-translations",
