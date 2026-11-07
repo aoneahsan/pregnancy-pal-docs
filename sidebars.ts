@@ -26,7 +26,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Looking after you',
-      items: ['care/food', 'care/exercise', 'care/guides', 'care/wellness', 'care/suggestions'],
+      items: ['care/food', 'care/exercise', 'care/guides', 'care/wellness', 'care/suggestions', 'care/speak'],
     },
     'community',
     'plans',
