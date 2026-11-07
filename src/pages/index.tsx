@@ -6,8 +6,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 export default function Home(): ReactNode {
   return (
     <Layout
-      title="PregnancyPal Documentation — Your warm, week-by-week pregnancy companion"
-      description="The complete user guide for PregnancyPal: week-by-week tracking, kick counter, contractions timer, meal planning, appointments, community, and notifications across web, Android, iOS, and a browser extension."
+      title="Pregnancy Pal docs: how each part of your record works"
+      description="The guide to Pregnancy Pal: your record before, during and after pregnancy, visits, the visit report, medication, your partner and your data."
     >
       <HomepageHero />
       <main>

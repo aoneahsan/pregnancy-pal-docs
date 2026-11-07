@@ -1,4 +1,4 @@
-# PregnancyPal Documentation — robots.txt
+# Pregnancy Pal Documentation — robots.txt
 # Last updated: 2026-05-10
 # Allow major search engines and AI crawlers explicitly.
 

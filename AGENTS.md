@@ -10,7 +10,7 @@ Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (
 
 ---
 
-This public docs repository is nested under `pregnancypal-root/` and deploys through GitHub Pages on `main`. The private app and old Firebase backend are deferred for Supabase redevelopment; technical docs and links must remain factual. The workspace fleet tracker records the 30-day context pass and local build/browser verification.
+This public docs repository is nested under `pregnancypal-root/` and is published by hand to GitHub Pages. It describes the rebuilt app (live 2026-11-07, Supabase); the words come from the app's own catalogues, and old addresses redirect through `plugin-client-redirects`; technical docs and links must remain factual. The workspace fleet tracker records the 30-day context pass and local build/browser verification.
 
 **Docs maintenance (2026-10-21):** Supported packages and GitHub Pages actions are current; immutable install, typecheck, production build, and controlled Chrome desktop/mobile checks pass. Push to `main` deploys the verified build.
 
@@ -20,7 +20,7 @@ This public docs repository is nested under `pregnancypal-root/` and deploys thr
 - **Stack**: Docusaurus `3.10.2` (preset-classic + theme-mermaid), React `19.3.x`, TypeScript `~6.0`, MDX 3, Yarn `4.18.1` (Berry, `node-modules` linker).
 - **Live URL**: https://pregnancypal-docs.aoneahsan.com
 - **Documents the app**: https://pregnancypal.aoneahsan.com (Capacitor app id `com.aoneahsan.pregnancypal`).
-- **Deploy**: GitHub Pages through `.github/workflows/deploy-pages.yml` only; the custom domain is `pregnancypal-docs.aoneahsan.com`.
+- **Deploy**: by hand, `GIT_USER=aoneahsan USE_SSH=true yarn deploy`, which pushes `build/` to the `gh-pages` branch that GitHub Pages serves. No GitHub Actions. The custom domain is `pregnancypal-docs.aoneahsan.com`.
 - **License**: MIT (documentation content).
 - **Dev port**: `5946` (`yarn start` / `yarn serve`).
 

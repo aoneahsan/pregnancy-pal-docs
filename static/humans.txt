@@ -10,8 +10,8 @@ Location: Pakistan
 Last update: 2026-05-10
 Standards: HTML5, CSS3, ES2022
 Components: Docusaurus 3, React 19, TypeScript 5
-Software: Yarn, Firebase Hosting, GitHub Pages
+Software: Yarn, GitHub Pages
 
 /* THANKS */
 - Docusaurus team
-- The pregnant people who use PregnancyPal — your feedback shapes everything
+- The pregnant people who use Pregnancy Pal — your feedback shapes everything

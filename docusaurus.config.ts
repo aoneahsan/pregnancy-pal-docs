@@ -2,9 +2,9 @@ import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-const SITE_TITLE = 'PregnancyPal Documentation';
+const SITE_TITLE = 'Pregnancy Pal Docs';
 const SITE_TAGLINE =
-  'Your warm, week-by-week pregnancy companion — guides for every feature in PregnancyPal.';
+  'One record for before, during and after pregnancy: how each part of Pregnancy Pal works.';
 const SITE_URL = process.env.SITE_URL || 'https://pregnancypal-docs.aoneahsan.com';
 const BASE_URL = process.env.BASE_URL || '/';
 const APP_URL = 'https://pregnancypal.aoneahsan.com';
@@ -26,7 +26,7 @@ const config: Config = {
   organizationName: 'aoneahsan',
   projectName: 'pregnancy-pal-docs',
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
 
   trailingSlash: false,
 
@@ -77,6 +77,83 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // Addresses from the old docs, so nothing already indexed or bookmarked breaks.
+        redirects: [
+        { from: '/docs/about/credits', to: '/docs/intro' },
+        { from: '/docs/about/glossary', to: '/docs/intro' },
+        { from: '/docs/features/account/data-export', to: '/docs/account/your-data' },
+        { from: '/docs/features/account/delete-account', to: '/docs/account/your-data' },
+        { from: '/docs/features/account/profile', to: '/docs/account/your-data' },
+        { from: '/docs/features/account/security', to: '/docs/account/your-data' },
+        { from: '/docs/features/appointments/export-pdf', to: '/docs/record/visit-report' },
+        { from: '/docs/features/appointments/reminders', to: '/docs/record/visits' },
+        { from: '/docs/features/appointments/scheduling', to: '/docs/record/visits' },
+        { from: '/docs/features/blog/reading', to: '/docs/care/guides' },
+        { from: '/docs/features/community/joining-cohorts', to: '/docs/community' },
+        { from: '/docs/features/community/posting-and-anonymous', to: '/docs/community' },
+        { from: '/docs/features/community/safety-and-moderation', to: '/docs/community' },
+        { from: '/docs/features/content/quizzes-calculators', to: '/docs/care/guides' },
+        { from: '/docs/features/dashboard', to: '/docs/getting-started/today' },
+        { from: '/docs/features/extension/install', to: '/docs/intro' },
+        { from: '/docs/features/extension/options', to: '/docs/intro' },
+        { from: '/docs/features/extension/popup', to: '/docs/intro' },
+        { from: '/docs/features/fertility/conception-window', to: '/docs/record/cycle' },
+        { from: '/docs/features/fertility/pre-pregnancy', to: '/docs/record/cycle' },
+        { from: '/docs/features/pregnancy-profile', to: '/docs/getting-started/sign-in' },
+        { from: '/docs/features/pregnancy-tracking/baby-development', to: '/docs/getting-started/today' },
+        { from: '/docs/features/pregnancy-tracking/maternal-changes', to: '/docs/getting-started/today' },
+        { from: '/docs/features/pregnancy-tracking/milestones', to: '/docs/getting-started/today' },
+        { from: '/docs/features/pregnancy-tracking/week-by-week', to: '/docs/getting-started/today' },
+        { from: '/docs/features/reporting/health-export-pdf', to: '/docs/record/visit-report' },
+        { from: '/docs/features/settings/language', to: '/docs/account/appearance' },
+        { from: '/docs/features/settings/theme-customizer', to: '/docs/account/appearance' },
+        { from: '/docs/features/settings/units', to: '/docs/account/appearance' },
+        { from: '/docs/features/tools/contractions-timer', to: '/docs/record/logging' },
+        { from: '/docs/features/tools/kick-counter', to: '/docs/record/logging' },
+        { from: '/docs/features/tracking/blood-pressure', to: '/docs/record/logging' },
+        { from: '/docs/features/tracking/glucose', to: '/docs/record/logging' },
+        { from: '/docs/features/tracking/symptoms', to: '/docs/record/logging' },
+        { from: '/docs/features/tracking/temperature', to: '/docs/record/logging' },
+        { from: '/docs/features/tracking/weight', to: '/docs/record/logging' },
+        { from: '/docs/features/wellness/exercise', to: '/docs/care/exercise' },
+        { from: '/docs/features/wellness/eye-breaks', to: '/docs/care/wellness' },
+        { from: '/docs/features/wellness/medications', to: '/docs/record/medication' },
+        { from: '/docs/features/wellness/mood-tracking', to: '/docs/care/wellness' },
+        { from: '/docs/features/wellness/movement', to: '/docs/care/wellness' },
+        { from: '/docs/features/wellness/posture', to: '/docs/care/wellness' },
+        { from: '/docs/features/wellness/water-intake', to: '/docs/care/wellness' },
+        { from: '/docs/getting-started/dashboard-tour', to: '/docs/getting-started/today' },
+        { from: '/docs/getting-started/installation', to: '/docs/getting-started/sign-in' },
+        { from: '/docs/getting-started/onboarding', to: '/docs/getting-started/sign-in' },
+        { from: '/docs/getting-started/sign-up', to: '/docs/getting-started/sign-in' },
+        { from: '/docs/help/contact-support', to: '/docs/help/contact' },
+        { from: '/docs/help/troubleshooting', to: '/docs/help/offline-and-updates' },
+        { from: '/docs/legal/data-handling', to: '/docs/help/contact' },
+        { from: '/docs/legal/privacy', to: '/docs/help/contact' },
+        { from: '/docs/legal/terms', to: '/docs/help/contact' },
+        { from: '/docs/features/diet/condition-aware-plans', to: '/docs/care/food' },
+        { from: '/docs/features/diet/dietary-restrictions', to: '/docs/care/food' },
+        { from: '/docs/features/diet/meal-planning', to: '/docs/care/food' },
+        { from: '/docs/features/diet/nutrition-targets', to: '/docs/care/food' },
+        { from: '/docs/features/mobile/deep-linking', to: '/docs/intro' },
+        { from: '/docs/features/mobile/install-android', to: '/docs/intro' },
+        { from: '/docs/features/mobile/install-ios', to: '/docs/intro' },
+        { from: '/docs/features/mobile/offline-mode', to: '/docs/help/offline-and-updates' },
+        { from: '/docs/features/mobile/share-and-pdf', to: '/docs/record/visit-report' },
+        { from: '/docs/features/notifications/preferences', to: '/docs/care/wellness' },
+        { from: '/docs/features/notifications/push', to: '/docs/care/wellness' },
+        { from: '/docs/features/notifications/quiet-hours', to: '/docs/care/wellness' },
+        { from: '/docs/features/period/cycle-tracking', to: '/docs/record/cycle' },
+        { from: '/docs/features/period/ovulation-prediction', to: '/docs/record/cycle' },
+        ],
+      },
+    ],
+  ],
+
   headTags: [
     // Author + theme color
     { tagName: 'meta', attributes: { name: 'author', content: AUTHOR_NAME } },
@@ -85,11 +162,11 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'application-name',
-        content: 'PregnancyPal Docs',
+        content: 'Pregnancy Pal Docs',
       },
     },
     // Open Graph baseline (per-page can override)
-    { tagName: 'meta', attributes: { property: 'og:site_name', content: 'PregnancyPal Documentation' } },
+    { tagName: 'meta', attributes: { property: 'og:site_name', content: 'Pregnancy Pal Documentation' } },
     { tagName: 'meta', attributes: { property: 'og:type', content: 'website' } },
     { tagName: 'meta', attributes: { property: 'og:locale', content: 'en_US' } },
     // Twitter card baseline
@@ -102,7 +179,7 @@ const config: Config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'WebSite',
-        name: 'PregnancyPal Documentation',
+        name: 'Pregnancy Pal Documentation',
         url: SITE_URL,
         potentialAction: {
           '@type': 'SearchAction',
@@ -118,7 +195,7 @@ const config: Config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Organization',
-        name: 'PregnancyPal',
+        name: 'Pregnancy Pal',
         url: APP_URL,
         logo: `${SITE_URL}/img/logo.svg`,
         founder: {
@@ -137,7 +214,7 @@ const config: Config = {
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'SoftwareApplication',
-        name: 'PregnancyPal',
+        name: 'Pregnancy Pal',
         operatingSystem: 'Web, Android',
         applicationCategory: 'HealthApplication',
         url: APP_URL,
@@ -158,7 +235,7 @@ const config: Config = {
   themeConfig: {
     image: 'img/og-image.png',
     metadata: [
-      { name: 'keywords', content: 'pregnancy app, week-by-week pregnancy tracker, kick counter, contractions timer, maternal wellness, pregnancy documentation, PregnancyPal' },
+      { name: 'keywords', content: 'pregnancy record, period tracker, kick counter, contraction timer, medication reminders, visit report, baby tracker' },
     ],
     colorMode: {
       defaultMode: 'light',
@@ -166,9 +243,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'PregnancyPal Docs',
+      title: 'Pregnancy Pal Docs',
       logo: {
-        alt: 'PregnancyPal logo',
+        alt: 'Pregnancy Pal logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -179,8 +256,8 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          to: '/docs/about/credits',
-          label: 'About',
+          to: '/docs/plans',
+          label: 'Plans',
           position: 'left',
         },
         {
@@ -201,9 +278,9 @@ const config: Config = {
         {
           title: 'Documentation',
           items: [
-            { label: 'Getting Started', to: '/docs/getting-started/installation' },
-            { label: 'Pregnancy Tracking', to: '/docs/features/pregnancy-tracking/week-by-week' },
-            { label: 'FAQ', to: '/docs/help/faq' },
+            { label: 'Getting started', to: '/docs/getting-started/sign-in' },
+            { label: 'Your record', to: '/docs/record/logging' }, { label: 'Coming from another app', to: '/docs/compare' },
+            { label: 'Questions', to: '/docs/help/faq' },
           ],
         },
         {
@@ -227,11 +304,10 @@ const config: Config = {
         {
           title: 'Support the project',
           items: [
-            { label: 'Donate / Support', href: 'https://aoneahsan.com/payment?project-id=pregnancy-pal&project-identifier=com.aoneahsan.pregnancypal' },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} PregnancyPal. Built and maintained by <a href="${AUTHOR_URL}" target="_blank" rel="noopener">Ahsan Mahmood</a>. Documentation licensed under MIT.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Pregnancy Pal. Built and maintained by <a href="${AUTHOR_URL}" target="_blank" rel="noopener">Ahsan Mahmood</a>. Documentation licensed under MIT.`,
     },
     prism: {
       theme: prismThemes.github,

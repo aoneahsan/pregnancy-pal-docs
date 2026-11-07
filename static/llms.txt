@@ -1,57 +1,43 @@
-# PregnancyPal Documentation
+# Pregnancy Pal docs
 
-> User documentation for PregnancyPal — a maternal wellness companion app with
-> week-by-week pregnancy tracking, kick counter, contractions timer, meal
-> planning, appointment management, period & fertility tracking, community by
-> week-cohort, wellness reminders, and a health-report PDF export.
-> Available as a web app and an Android app (on Google Play); iPhone/iPad users
-> use the web app in Safari. A companion Chrome extension is also available.
-> Built by Ahsan Mahmood.
+> How Pregnancy Pal works: one record for before, during and after pregnancy, for you and your partner. It keeps your record and can make suggestions from it; it does not diagnose or treat. Web and Android.
 
-## Key links
+The app: https://pregnancypal.aoneahsan.com
 
-- App: https://pregnancypal.aoneahsan.com
-- Android (Google Play): https://play.google.com/store/apps/details?id=com.aoneahsan.pregnancypal
-- Docs site: https://pregnancypal-docs.aoneahsan.com
-- Sitemap: https://pregnancypal-docs.aoneahsan.com/sitemap.xml
-- Author: https://aoneahsan.com (Ahsan Mahmood)
+## Pages
 
-## Getting started
-
-- /docs/intro — Welcome and overview
-- /docs/getting-started/installation — Open the app on the web or Android
-- /docs/getting-started/sign-up — Create your account (sign in with Google)
-- /docs/getting-started/onboarding — First-run setup (LMP, conditions, diet)
-- /docs/getting-started/dashboard-tour — Find your way around after signing in
-
-## Feature documentation
-
-- /docs/features/pregnancy-tracking/week-by-week — Week-by-week tracking, milestones, baby development, maternal changes
-- /docs/features/tools/kick-counter — Kick counter and /docs/features/tools/contractions-timer — contractions timer
-- /docs/features/tracking/blood-pressure — Vitals & symptom logging (blood pressure, glucose, temperature, weight, symptoms)
-- /docs/features/wellness/water-intake — Wellness modules (water, medications, eye breaks, posture, movement, exercise, mood)
-- /docs/features/diet/meal-planning — Diet & nutrition (meal planning, dietary restrictions, nutrition targets, condition-aware plans)
-- /docs/features/appointments/scheduling — Appointment scheduling, reminders, and PDF export
-- /docs/features/period/cycle-tracking — Period, ovulation estimates, fertility, and pre-pregnancy use
-- /docs/features/community/joining-cohorts — Week-cohort communities, posting, safety & moderation
-- /docs/features/notifications/push — Push notifications, preferences, quiet hours
-- /docs/features/reporting/health-export-pdf — Health-report PDF export
-- /docs/features/account/profile — Account, security, data export, account deletion
-- /docs/features/settings/theme-customizer — Theme customizer, units, language
-- /docs/features/mobile/install-android — Mobile install, offline behavior, deep linking, share & PDF
-- /docs/features/extension/install — Chrome companion extension
-- /docs/help/faq — FAQ, troubleshooting, contact support
-- /docs/legal/privacy — Plain-language privacy, terms, and data-handling summaries
-- /docs/about/glossary — Pregnancy & app glossary
-
-## About
-
-- /docs/about/credits — About PregnancyPal, author attribution, and how to support
-
-## Honest framing
-
-PregnancyPal is a tracking and organization companion. It is NOT a substitute
-for prenatal care, does NOT diagnose any condition, and does NOT replace
-healthcare provider guidance. Predictions (such as ovulation estimates) are
-estimates, not medical advice. Always consult a qualified provider for medical
-decisions.
+- /docs/account/appearance: Appearance and units. One control for colours, light and dark, text size and motion. Readings are shown in the units you choose.
+- /docs/account/old-record: Claiming an older record. If we wrote to you about an older account, sign in with the same Google account to bring your record across.
+- /docs/account/your-data: Export or delete your data. Your whole record as a file you keep, and deleting your account, on every plan.
+- /docs/care/exercise: Exercise. Exercises for your stage with step-by-step instructions, all optional. No streaks.
+- /docs/care/food: Food. Foods grouped as enjoy, limit or avoid, what to focus on each trimester, and what you do not eat.
+- /docs/care/guides: Guides. Short reads picked from your week. Calm, plain, and clear about when to call someone.
+- /docs/care/suggestions: Suggestions. Patterns from your own record, worded so you can ask about them. Off until you turn them on.
+- /docs/care/wellness: Wellness and reminders. Water, posture, eye breaks, doses and visits. You choose which reminders you want and when they stay quiet.
+- /docs/community: Community. Small rooms by stage. Read without posting, report or block anyone, and posts telling people to change treatment come down.
+- /docs/compare/babycenter: Moving from BabyCenter to Pregnancy Pal. How BabyCenter and Pregnancy Pal differ, and how to start here if you are moving across. Read from its own pages, last checked November 7, 2026.
+- /docs/compare/clue: Moving from Clue to Pregnancy Pal. How Clue and Pregnancy Pal differ, and how to start here if you are moving across. Read from its own pages, last checked November 7, 2026.
+- /docs/compare/flo: Moving from Flo to Pregnancy Pal. How Flo and Pregnancy Pal differ, and how to start here if you are moving across. Read from its own pages, last checked November 7, 2026.
+- /docs/compare/huckleberry: Moving from Huckleberry to Pregnancy Pal. How Huckleberry and Pregnancy Pal differ, and how to start here if you are moving across. Read from its own pages, last checked November 7, 2026.
+- /docs/compare: Coming from another app. How to move to Pregnancy Pal from Flo, Clue, Ovia and other pregnancy and cycle apps, with what each offers, read from its own pages.
+- /docs/compare/nurture: Moving from Nurture by Glow to Pregnancy Pal. How Nurture by Glow and Pregnancy Pal differ, and how to start here if you are moving across. Read from its own pages, last checked November 7, 2026.
+- /docs/compare/ovia: Moving from Ovia to Pregnancy Pal. How Ovia and Pregnancy Pal differ, and how to start here if you are moving across. Read from its own pages, last checked November 7, 2026.
+- /docs/compare/pregnancy-plus: Moving from Pregnancy+ to Pregnancy Pal. How Pregnancy+ and Pregnancy Pal differ, and how to start here if you are moving across. Read from its own pages, last checked November 7, 2026.
+- /docs/compare/sprout: Moving from Sprout to Pregnancy Pal. How Sprout and Pregnancy Pal differ, and how to start here if you are moving across. Read from its own pages, last checked November 7, 2026.
+- /docs/compare/stardust: Moving from Stardust to Pregnancy Pal. How Stardust and Pregnancy Pal differ, and how to start here if you are moving across. Read from its own pages, last checked November 7, 2026.
+- /docs/compare/the-bump: Moving from The Bump to Pregnancy Pal. How The Bump and Pregnancy Pal differ, and how to start here if you are moving across. Read from its own pages, last checked November 7, 2026.
+- /docs/compare/what-to-expect: Moving from What to Expect to Pregnancy Pal. How What to Expect and Pregnancy Pal differ, and how to start here if you are moving across. Read from its own pages, last checked November 7, 2026.
+- /docs/getting-started/sign-in: Sign in and set your dates. Sign in with Google, tell us your stage and dates, and your week is worked out from them.
+- /docs/getting-started/today: Today, your main page. Your week, your next visit and the things you log most, in one place.
+- /docs/help/contact: Contact and policies. How to reach us, and where the Privacy Policy and Terms live.
+- /docs/help/faq: Questions people ask. Short answers about who it is for, plans, partners, privacy and devices.
+- /docs/help/offline-and-updates: No signal, and updates. What works offline, how quick logs sync, and how the app keeps itself up to date.
+- /docs/intro: What Pregnancy Pal is. One record for before, during and after pregnancy, for you and your partner. What it keeps, what it costs and what it will not do.
+- /docs/plans: Plans. What Free, Plus and Family each include, and where the current prices live.
+- /docs/record/baby: After the birth. Feeds with a timer, weight and length, and the vaccinations your clinic gave.
+- /docs/record/cycle: Periods and fertile days. Log your periods and get estimates of your next period and fertile days. Estimates are labeled that way everywhere.
+- /docs/record/logging: Logging readings and symptoms. Blood pressure, weight, symptoms, kicks and contractions, each with its date. Your own line, with no borrowed averages.
+- /docs/record/medication: Medication. Copy what was prescribed, tick each dose, and your visit report counts what you took.
+- /docs/record/partner: Sharing with a partner. Nothing is shared until you switch it on. Invite your partner with a link and choose each part they can see.
+- /docs/record/visit-report: The visit report. One page for your doctor, built live from your own record, with your questions first. Print it or save a PDF.
+- /docs/record/visits: Visits and questions. Keep each visit with its time, place, reminder and notes, and collect questions for the next one.
