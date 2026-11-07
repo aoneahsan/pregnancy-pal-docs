@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkpregnancy_pal_docs=globalThis.webpackChunkpregnancy_pal_docs||[]).push([[4737],{4737(a,e,c){c.d(e,{createPieServices:()=>s.f});var s=c(532);c(9302)}}]);
