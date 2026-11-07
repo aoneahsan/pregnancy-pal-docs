@@ -280,7 +280,7 @@ const config: Config = {
           items: [
             { label: 'Getting started', to: '/docs/getting-started/sign-in' },
             { label: 'Your record', to: '/docs/record/logging' }, { label: 'Coming from another app', to: '/docs/compare' },
-            { label: 'Questions', to: '/docs/help/faq' },
+            { label: 'Questions', to: '/docs/help/faq' }, { label: 'Sitemap', to: '/sitemap' }, { label: 'Feed', to: '/feed' },
           ],
         },
         {
