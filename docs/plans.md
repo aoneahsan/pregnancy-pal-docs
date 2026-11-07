@@ -17,3 +17,11 @@ last_update:
 Medical reminders and safety notes are on all three, and so are exporting and deleting your data.
 
 Prices and exact limits are on the [plans page](https://pregnancypal.aoneahsan.com/pricing), which always shows the current ones.
+
+## Inviting a friend
+
+Your page has a link to send to a friend. When they join and their email is confirmed, you get points and a stamp, and enough friends earn a free month of a paid plan. The exact numbers are on [your invite page](https://pregnancypal.aoneahsan.com/profile/refer). We show a count, never who joined, and we never contact anyone for you.
+
+## Speak
+
+Each plan includes a number of [Speak](/docs/care/speak) drafts a month: 20 on Free, 100 on Plus and Family.
