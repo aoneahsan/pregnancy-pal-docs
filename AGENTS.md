@@ -20,7 +20,7 @@ This public docs repository is nested under `pregnancypal-root/` and is publishe
 - **Stack**: Docusaurus `3.10.2` (preset-classic + theme-mermaid), React `19.3.x`, TypeScript `~6.0`, MDX 3, Yarn `4.18.1` (Berry, `node-modules` linker).
 - **Live URL**: https://pregnancypal-docs.aoneahsan.com
 - **Documents the app**: https://pregnancypal.aoneahsan.com (Capacitor app id `com.aoneahsan.pregnancypal`).
-- **Deploy**: by hand, `GIT_USER=aoneahsan USE_SSH=true yarn deploy`, which pushes `build/` to the `gh-pages` branch that GitHub Pages serves. No GitHub Actions. The custom domain is `pregnancypal-docs.aoneahsan.com`.
+- **Deploy**: by hand. `yarn build`, then commit `build/` plus an empty `.nojekyll` to the `gh-pages` branch from a checkout in the workspace `temp/` and push it through remote `o` (`docusaurus deploy` needs a remote named `origin`, which the fleet doesn't use). No GitHub Actions. The custom domain is `pregnancypal-docs.aoneahsan.com`.
 - **License**: MIT (documentation content).
 - **Dev port**: `5946` (`yarn start` / `yarn serve`).
 
