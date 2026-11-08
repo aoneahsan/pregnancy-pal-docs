@@ -3,7 +3,7 @@ title: "Plans"
 description: "What Free, Plus and Family each include, and where the current prices live."
 sidebar_position: 7
 last_update:
-  date: 2026-11-07
+  date: 2026-11-08
 ---
 
 # Plans
@@ -11,6 +11,8 @@ last_update:
 **Free** covers the everyday record: periods, visits, medication, kicks and feeds. There's no card needed to start.
 
 **Plus** adds the doctor-visit report, PDF records, all of your history and more reminders.
+
+On Free you look back through your current pregnancy. Anything older stays stored, comes with an export, and shows again on Plus or Family.
 
 **Family** adds a seat for your partner.
 
