@@ -155,6 +155,7 @@ const config: Config = {
   ],
 
   headTags: [
+    { tagName: 'meta', attributes: { name: 'yandex-verification', content: 'bfb02722189028cf' } },
     // Author + theme color
     { tagName: 'meta', attributes: { name: 'author', content: AUTHOR_NAME } },
     { tagName: 'meta', attributes: { name: 'theme-color', content: '#F472B6' } },
