@@ -37,7 +37,7 @@ Local URL: http://localhost:5946
 
 ## Deployment
 
-GitHub Pages deploys this site from `main` through `.github/workflows/deploy-pages.yml`. The custom domain is `pregnancypal-docs.aoneahsan.com`. There is no active Firebase Hosting workflow for this repository.
+The site is published by hand: `yarn build`, then the contents of `build/` are committed to the `gh-pages` branch and pushed, and GitHub Pages serves that branch. There is no GitHub Actions workflow. The custom domain is `pregnancypal-docs.aoneahsan.com`; `static/.nojekyll` and `static/CNAME` ride along with every build.
 
 The 2026-10-14 maintenance build passed typecheck and Docusaurus production build, and the fresh site loaded in controlled Chrome at desktop and mobile widths without exceptions or horizontal overflow. Package upgrades remain in the workspace fleet tracker.
 
