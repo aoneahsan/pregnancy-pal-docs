@@ -41,3 +41,14 @@ The app: https://pregnancypal.aoneahsan.com
 - /docs/record/partner: Sharing with a partner. Nothing is shared until you switch it on. Invite your partner with a link and choose each part they can see.
 - /docs/record/visit-report: The visit report. One page for your doctor, built live from your own record, with your questions first. Print it or save a PDF.
 - /docs/record/visits: Visits and questions. Keep each visit with its time, place, reminder and notes, and collect questions for the next one.
+
+## White-label and licensing
+
+Organizations can run Pregnancy Pal under their own name and domain, or buy it outright. Prices live on the app's pricing page: https://pregnancypal.aoneahsan.com/white-label/pricing
+
+- /docs/white-label: White-label and licensing. How an organization can run Pregnancy Pal under its own name and domain, or buy it outright, and where the prices and the licence terms live.
+- /docs/white-label/delivered: What's delivered with a licence or a buyout. What each platform in a Pregnancy Pal white-label licence covers, what the buyout hands over, and what stays with us.
+- /docs/white-label/faq: Questions about licensing Pregnancy Pal. Short answers about white-label licences of Pregnancy Pal: source code, other buyers, iOS, updates, custom work and approvals.
+- /docs/white-label/setup: Setting up a white-label deployment. The steps from paying for a Pregnancy Pal licence to a live deployment on your own domain, with your name, logo and colours.
+- /docs/white-label/updates: White-label updates and renewals. The six months of updates every Pregnancy Pal licence and buyout includes, what counts as an update, and how renewing works.
+- /docs/white-label/verify: Verifying a Pregnancy Pal licence. How anyone can check a Pregnancy Pal white-label licence by its key or by the domain a deployment runs on, and what each answer means.
