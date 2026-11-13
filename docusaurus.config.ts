@@ -288,6 +288,7 @@ const config: Config = {
           title: 'Product',
           items: [
             { label: 'Open the App', href: APP_URL },
+            { label: 'White-label', to: '/docs/white-label' },
             { label: 'Privacy', href: `${APP_URL}/privacy` },
             { label: 'Terms', href: `${APP_URL}/terms` },
           ],

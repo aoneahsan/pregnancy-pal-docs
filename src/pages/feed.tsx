@@ -8,7 +8,7 @@ export default function DocsFeed(): ReactNode {
     <Layout title="What’s new in the docs" description="The Pregnancy Pal docs as a feed: what each page covers and when it last changed.">
       <main className="container margin-vert--xl">
         <h1>What’s new in the docs</h1>
-        <p>These pages last changed on November 7, 2026, when the docs were rewritten for the rebuilt app. Readers can follow /feed.xml.</p>
+        <p>Most pages last changed on November 7, 2026, when the docs were rewritten for the rebuilt app; the white-label and licensing section was added on November 13, 2026. Readers can follow /feed.xml.</p>
         <ul>
           {docs.map((doc) => (
             <li key={doc.to}>

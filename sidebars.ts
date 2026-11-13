@@ -32,6 +32,18 @@ const sidebars: SidebarsConfig = {
     'plans',
     {
       type: 'category',
+      label: 'White-label and licensing',
+      link: { type: 'doc', id: 'white-label/index' },
+      items: [
+        'white-label/delivered',
+        'white-label/setup',
+        'white-label/updates',
+        'white-label/verify',
+        'white-label/faq',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Coming from another app',
       link: { type: 'doc', id: 'compare/index' },
       items: [
