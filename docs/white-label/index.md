@@ -14,7 +14,7 @@ A white-label licence means we run Pregnancy Pal for an organization under that 
 There are two ways to have it:
 
 - **A licence.** We run it for you. You choose the web app, the mobile app (Android and iOS), or both. No source code changes hands, and we may license it to others until somebody buys it outright.
-- **The buyout.** The source code of every repository that builds what Pregnancy Pal ships becomes yours, with six months of our updates, and we stop selling it to anyone else.
+- **The buyout.** The source code of every repository that builds what Pregnancy Pal ships becomes yours, with six months of our updates, and we stop selling it to anyone else. You pay us a royalty of 7% of the gross revenue it earns for as long as it earns, as the [licence terms](https://pregnancypal.aoneahsan.com/white-label/license-terms) explain.
 
 Current prices are on the [white-label prices page](https://pregnancypal.aoneahsan.com/white-label/pricing), which reads them from our licensing service. The plain-words licence is on the [licence terms page](https://pregnancypal.aoneahsan.com/white-label/license-terms), and the full text is in the [Terms of Service](https://pregnancypal.aoneahsan.com/terms).
 

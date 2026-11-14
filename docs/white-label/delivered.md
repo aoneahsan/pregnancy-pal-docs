@@ -32,4 +32,6 @@ The Android app under your name, published to your own store account. The iOS ap
 - The Android project, ready to build and sign with your own key
 - Six months of updates from the day you buy
 
-After a buyout we take Pregnancy Pal off sale. Licences sold before it keep their terms until they end. The price is on the [buyout page](https://pregnancypal.aoneahsan.com/white-label/buyout).
+After a buyout we take Pregnancy Pal off sale. Licences sold before it keep their terms until they end.
+
+The buyout also carries a royalty: you pay us 7% of the gross revenue Pregnancy Pal earns, leaving out any sales tax or VAT you collect. It's paid every quarter with a revenue statement, for as long as Pregnancy Pal earns revenue, and it's still owed if you sell it on. The price is on the [buyout page](https://pregnancypal.aoneahsan.com/white-label/buyout).

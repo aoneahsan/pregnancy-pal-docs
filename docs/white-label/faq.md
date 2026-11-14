@@ -15,6 +15,9 @@ No. A licence means we run Pregnancy Pal for you under your name. The code chang
 **Can someone else license it too?**
 Yes, until somebody buys it outright. After a buyout we stop selling it, and licences sold before then keep their terms.
 
+**Is there anything to pay after a buyout?**
+Yes, a royalty of 7% of the gross revenue Pregnancy Pal earns, not counting sales tax or VAT you collect. You pay it every quarter with a revenue statement, for as long as it earns revenue, and it stays owed if you sell Pregnancy Pal on.
+
 **What about iOS?**
 The mobile platform covers Android and iOS. We deliver the iOS app once you provide or fund an Apple developer account.
 
