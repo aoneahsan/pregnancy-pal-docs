@@ -12,3 +12,8 @@
 .note { font-size: 0.9375rem; margin: 1.5rem 0 0; }
 .disc { width: min(100%, 22rem); justify-self: center; }
 @media (min-width: 60rem) { .inner { grid-template-columns: 7fr 5fr; } }
+
+/* Hero "also on" row: every other released surface, small, above the fold (2026-11-20). */
+.also { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem 1rem; margin: 1rem 0 0; }
+.also a { color: var(--milk); text-decoration: underline; min-height: 2.75rem; display: inline-flex; align-items: center; }
+.also span { opacity: .85; }

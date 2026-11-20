@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import Link from '@docusaurus/Link';
+import { OTHER_PLATFORMS, PRIMARY_PLATFORM } from '@site/src/data/platforms';
 import styles from './styles.module.css';
 
 const RINGS = [
@@ -25,10 +26,17 @@ export default function HomepageHero(): ReactNode {
             <Link className={styles.primary} to="/docs/intro">
               Read the docs
             </Link>
-            <Link className={styles.secondary} href="https://pregnancypal.aoneahsan.com">
+            <Link className={styles.secondary} href={PRIMARY_PLATFORM.href}>
               Open the app
             </Link>
           </div>
+          <p className={styles.also}>
+            <span>Also on</span>
+            {OTHER_PLATFORMS.filter((platform) => !platform.primary).map((platform) => (
+              <Link key={platform.id} href={platform.href}>{platform.name}</Link>
+            ))}
+            <Link to="/apps">All apps →</Link>
+          </p>
           <p className={styles.note}>
             It keeps your record and can make suggestions from it. It doesn&rsquo;t diagnose or
             treat.

@@ -1,13 +1,14 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import { OTHER_PLATFORMS, platformHref } from './src/data/platforms';
 
 const SITE_TITLE = 'Pregnancy Pal Docs';
 const SITE_TAGLINE =
   'One record for before, during and after pregnancy: how each part of Pregnancy Pal works.';
 const SITE_URL = process.env.SITE_URL || 'https://pregnancypal-docs.aoneahsan.com';
 const BASE_URL = process.env.BASE_URL || '/';
-const APP_URL = 'https://pregnancypal.aoneahsan.com';
+const APP_URL = platformHref('web');
 const ORG_GITHUB = 'https://github.com/aoneahsan';
 const REPO_URL = `${ORG_GITHUB}/pregnancy-pal-docs`;
 const AUTHOR_NAME = 'Ahsan Mahmood';
@@ -262,9 +263,13 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: APP_URL,
-          label: 'Open the App ↗',
+          type: 'dropdown',
+          label: 'Get Pregnancy Pal',
           position: 'right',
+          items: [
+            ...OTHER_PLATFORMS.map((platform) => ({ label: platform.name, href: platform.href })),
+            { label: 'All apps', to: '/apps' },
+          ],
         },
         {
           href: REPO_URL,
@@ -277,6 +282,13 @@ const config: Config = {
       style: 'light',
       links: [
         {
+          title: 'Get Pregnancy Pal',
+          items: [
+            ...OTHER_PLATFORMS.map((platform) => ({ label: platform.name, href: platform.href })),
+            { label: 'All apps', to: '/apps' },
+          ],
+        },
+        {
           title: 'Documentation',
           items: [
             { label: 'Getting started', to: '/docs/getting-started/sign-in' },
@@ -287,7 +299,6 @@ const config: Config = {
         {
           title: 'Product',
           items: [
-            { label: 'Open the App', href: APP_URL },
             { label: 'White-label', to: '/docs/white-label' },
             { label: 'Privacy', href: `${APP_URL}/privacy` },
             { label: 'Terms', href: `${APP_URL}/terms` },

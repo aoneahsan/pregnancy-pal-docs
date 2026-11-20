@@ -4,6 +4,13 @@
 
 The app: https://pregnancypal.aoneahsan.com
 
+
+## Get Pregnancy Pal
+
+- [All apps](https://pregnancypal-docs.aoneahsan.com/apps): every released surface of Pregnancy Pal.
+- [Pregnancy Pal web app](https://pregnancypal.aoneahsan.com)
+- [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.pregnancypal)
+
 ## Pages
 
 - /docs/account/appearance: Appearance and units. One control for colours, light and dark, text size and motion. Readings are shown in the units you choose.
