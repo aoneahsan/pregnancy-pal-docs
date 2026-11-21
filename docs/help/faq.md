@@ -1,9 +1,9 @@
 ---
 title: "Questions people ask"
-description: "Short answers about who it is for, plans, partners, privacy and devices."
+description: "Short answers about who it is for, plans, partners, privacy, connecting other apps and devices."
 sidebar_position: 2
 last_update:
-  date: 2026-11-07
+  date: 2026-11-21
 ---
 
 # Questions people ask
@@ -17,6 +17,8 @@ last_update:
 **Can my partner see everything?** Only what you share, and only after you invite them. You can take it back whenever you like.
 
 **Do you count what I do in the app?** Yes. We count how the app is used, to improve it, and what you log stays out of those counts. The [Cookie Policy](https://pregnancypal.aoneahsan.com/cookie-policy) says exactly what we use.
+
+**Can I connect Claude, ChatGPT or my own app?** Yes, on every plan. Each one reaches only the parts you tick, and an assistant's delete waits for your yes. See [Pregnancy Pal for developers](../developers/index.md).
 
 **Is there an iPhone app?** Not yet. Use it in Safari.
 

@@ -12,7 +12,7 @@ Finish the real task fast + correctly FIRST; docs/trackers/sync are a footnote (
 
 This public docs repository is nested under `pregnancypal-root/` and is published by hand to GitHub Pages. It describes the rebuilt app (live 2026-11-07, Supabase); the words come from the app's own catalogues, and old addresses redirect through `plugin-client-redirects`; technical docs and links must remain factual. The workspace fleet tracker records the 30-day context pass and local build/browser verification.
 
-**Docs maintenance (2026-10-21):** Supported packages and GitHub Pages actions are current; immutable install, typecheck, production build, and controlled Chrome desktop/mobile checks pass. Push to `main` deploys the verified build.
+**Docs maintenance (2026-10-21):** Supported packages are current (no GitHub Actions: the site is built and published by hand); immutable install, typecheck, production build, and controlled Chrome desktop/mobile checks pass. Push to `main` deploys the verified build.
 
 ## What this project is
 
@@ -30,7 +30,7 @@ This public docs repository is nested under `pregnancypal-root/` and is publishe
 
 ## Repo / git note (IMPORTANT for maintainers)
 
-This project has **its own public GitHub repo**: `github.com/aoneahsan/pregnancy-pal-docs` (remote name `origin`, branch `main`). Commit + push directly here (one commit per prompt, then `git push origin main`). It is a standalone repo — not a submodule/gitlink of `01-code`. (Created 2026-06-08; flipped **public** 2026-06-23 per the fleet docs-public policy — docs sites are public for free GitHub Pages; the app's code repo stays private.)
+This project has **its own public GitHub repo**: `github.com/aoneahsan/pregnancy-pal-docs` (remote name `o`, branch `main`). Commit + push directly here (one commit per prompt, then `git push origin main`). It is a standalone repo — not a submodule/gitlink of `01-code`. (Created 2026-06-08; flipped **public** 2026-06-23 per the fleet docs-public policy — docs sites are public for free GitHub Pages; the app's code repo stays private.)
 
 ---
 
@@ -44,7 +44,7 @@ yarn build            # docusaurus build → ./build
 yarn serve            # preview built site on :5946 (DO NOT run in agent sessions)
 ```
 
-`onBrokenLinks: 'warn'`. All content batches (1–11) are written (2026-06-23): getting-started, pregnancy tracking, tools, vitals, wellness, diet & appointments, period/fertility/community, notifications/content/reporting, account/settings, mobile/extension, and help/legal/glossary — 68 doc pages, building with **zero broken links**. Keep new pages to the established per-page pattern (definition-first intro → use cases → how-to → examples → tips → FAQ → "what this does NOT do" → related) with `last_update` + author footer.
+`onBrokenLinks: 'throw'`. All content batches (1–11) are written (2026-06-23): getting-started, pregnancy tracking, tools, vitals, wellness, diet & appointments, period/fertility/community, notifications/content/reporting, account/settings, mobile/extension, and help/legal/glossary — 68 doc pages, building with **zero broken links**. Keep new pages to the established per-page pattern (definition-first intro → use cases → how-to → examples → tips → FAQ → "what this does NOT do" → related) with `last_update` + author footer.
 
 ---
 

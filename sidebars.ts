@@ -32,6 +32,20 @@ const sidebars: SidebarsConfig = {
     'plans',
     {
       type: 'category',
+      label: 'Developers',
+      link: { type: 'doc', id: 'developers/index' },
+      items: [
+        'developers/access-keys',
+        'developers/api',
+        'developers/assistants',
+        'developers/webhooks',
+        'developers/calendar-feed',
+        'developers/two-step-sign-in',
+        'developers/changelog',
+      ],
+    },
+    {
+      type: 'category',
       label: 'White-label and licensing',
       link: { type: 'doc', id: 'white-label/index' },
       items: [

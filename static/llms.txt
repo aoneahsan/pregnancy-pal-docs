@@ -37,7 +37,7 @@ The app: https://pregnancypal.aoneahsan.com
 - /docs/getting-started/sign-in: Sign in and set your dates. Sign in with Google, tell us your stage and dates, and your week is worked out from them.
 - /docs/getting-started/today: Today, your main page. Your week, your next visit and the things you log most, in one place.
 - /docs/help/contact: Contact and policies. How to reach us, and where the Privacy Policy and Terms live.
-- /docs/help/faq: Questions people ask. Short answers about who it is for, plans, partners, privacy and devices.
+- /docs/help/faq: Questions people ask. Short answers about who it is for, plans, partners, privacy, connecting other apps and devices.
 - /docs/help/offline-and-updates: No signal, and updates. What works offline, how quick logs sync, and how the app keeps itself up to date.
 - /docs/intro: What Pregnancy Pal is. One record for before, during and after pregnancy, for you and your partner. What it keeps, what it costs and what it will not do.
 - /docs/plans: Plans. What Free, Plus and Family each include, and where the current prices live.
@@ -48,6 +48,19 @@ The app: https://pregnancypal.aoneahsan.com
 - /docs/record/partner: Sharing with a partner. Nothing is shared until you switch it on. Invite your partner with a link and choose each part they can see.
 - /docs/record/visit-report: The visit report. One page for your doctor, built live from your own record, with your questions first. Print it or save a PDF.
 - /docs/record/visits: Visits and questions. Keep each visit with its time, place, reminder and notes, and collect questions for the next one.
+
+## Developers
+
+Your own Pregnancy Pal record from a script, an assistant (Claude, ChatGPT, Claude Code, Cursor), webhooks or a calendar feed. API base URL: https://glmjdzqcparrcykstllr.supabase.co/functions/v1/api/v1 (OpenAPI: /openapi.json, /openapi.md). MCP server: https://glmjdzqcparrcykstllr.supabase.co/functions/v1/mcp. Access keys start with pp_pat_.
+
+- /docs/developers: Pregnancy Pal for developers. Reach your own Pregnancy Pal record from a script, an assistant such as Claude or ChatGPT, your own server or your calendar, and what an outside app can never touch.
+- /docs/developers/access-keys: Access keys. Make a Pregnancy Pal access key that reads, changes or deletes only the parts of your record you tick, show it again, replace it with a day's overlap, or remove it.
+- /docs/developers/api: The Pregnancy Pal API. The Pregnancy Pal REST API: base URL, the Authorization header, the data envelope, errors, cursor pagination, rate limits, and a curl example for every part of your record.
+- /docs/developers/assistants: Assistants: Claude, ChatGPT, Claude Code and Cursor. Connect Claude, ChatGPT, Claude Code or Cursor to your Pregnancy Pal record through its MCP server, choose what each can reach, confirm the deletes it asks for, and disconnect it.
+- /docs/developers/webhooks: Webhooks. Pregnancy Pal webhooks: every event and the short payload it sends, the optional payload with what was written, Standard Webhooks verification in Node and Python, retries, and turning an address off.
+- /docs/developers/calendar-feed: Calendar feed. Show your Pregnancy Pal visits, medication times, due date and visit reminders in Google Calendar or on an iPhone, with plain titles or the names in your record.
+- /docs/developers/two-step-sign-in: Two-step sign-in. Add a second step after Google to your Pregnancy Pal account: setting it up, ten recovery codes, remembering a browser for 7 days, a lost phone, and what support can and can't do.
+- /docs/developers/changelog: Developers changelog. What changed in Pregnancy Pal's API, assistant server, webhooks, calendar feed and two-step sign-in, newest first.
 
 ## White-label and licensing
 
